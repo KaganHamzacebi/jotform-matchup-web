@@ -1,0 +1,43 @@
+.loginCard {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14),
+                  0 1px 18px 0 rgba(0, 0, 0, 0.12),
+                  0 3px 5px -1px rgba(0, 0, 0, 0.4);
+}
+
+.loginForm {
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+ }
+
+.background {
+    background-image: url(https://i.pinimg.com/originals/55/c0/08/55c00891586695cc9e19953a9127d81e.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+  }
+
+.blur {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    height: 100vh;
+    width: 100vw;
+}
+
+.loginButton {
+    width: 100%;
+    border: none;
+    background-color: #4CAF50;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
