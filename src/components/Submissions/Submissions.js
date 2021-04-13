@@ -3,9 +3,9 @@ import 'antd/dist/antd.css';
 import './Submissions.css';
 import { Layout, Menu, Breadcrumb, Row, Col, Avatar, Image, Tag, Table, Button, Modal, Dropdown, Card } from 'antd';
 import { useHistory, useParams } from 'react-router-dom';
-import Stack from '../../Stack';
-import Department from '../../Department';
-import Student from '../../Student';
+import Stack from '../../Models/Stack';
+import Department from '../../Models/Department';
+import Student from '../../Models/Student';
 import {
   FileOutlined,
   AntDesignOutlined,
